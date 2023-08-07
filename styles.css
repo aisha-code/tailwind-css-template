@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    background-color: darkblue;
+}
+
+
+
+header {
+    height: 8vh;
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.start > .fa-solid {
+    color: skyblue;
+}
+
+.start {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    gap: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+ .sign > button{
+    width: 6rem;
+    padding: 10px;
+    background-color: gold;
+    border-radius: 9px;
+}
+
+.first {
+    height: 50vh;
+    width: 100%;
+    background-color: navy;
+    text-align: center;
+    color: white;
+    padding: 2.5rem;
+}
+
+.first > button {
+    width: 6.5rem;
+    padding: 10px;
+    margin: 1.5rem;
+    border-radius: 7px;
+}
+
+.first > h1 {
+    font-size: 2.5rem;
+}
+
+.first > p {
+    font-size: 17px;
+}
+
+.navy {
+    background-color: blue;
+}
+
+
+.black {
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+.second {
+    height: 80vh;
+    width: 100%;
+    background-color: darkblue;
+    padding: 2.5rem;
+    
+}
+
+.texts {
+    text-align: center;
+}
+
+.texts > h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.texts > p {
+    color: rgba(250, 235, 215, 0.562);
+    font-size: 17px;
+}
+
+ .text {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    padding: 3rem;
+}
+
+.one > p {
+    color: rgba(250, 235, 215, 0.562);
+    font-size: 17px;
+}
+
+.one {
+    width: 30%;
+}
+
+.two {
+    width: 30%;
+}
+
+.three {
+    width: 30%;
+}
+
+.fa-brands {
+    color: blueviolet;
+    margin-bottom: 1.5rem;
+}
+
+.third {
+    width: 100%;
+    height: 75vh;
+    background-color: darkblue;
+    padding: 5rem;
+
+}
+
+.phone > h1{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.phone > p {
+    text-align: center;
+    color: rgba(250, 235, 215, 0.562);
+    font-size: 17px;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.fourth {
+    width: 90%;
+    height: 20vh;
+    background-color: navy;
+    margin: 0 auto;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth .red{
+    display: flex;
+    width: 9%;
+    justify-content: space-around;
+    color: rgba(250, 235, 215, 0.562);
+
+}
+
+.green {
+    display: flex;
+    justify-content: space-around;
+    width: 9%;
+    color: rgba(250, 235, 215, 0.562);
+
+}
+
+.yellow {
+    display: flex;
+    width: 9%;
+    justify-content: space-around;
+    color: rgba(250, 235, 215, 0.562);
+
+}
+
+.ash{
+    display: flex;
+    width: 9%;
+    justify-content: space-around;
+    color: rgba(250, 235, 215, 0.562);
+
+}
+
+.purple {
+    display: flex;
+    width: 9%;
+    justify-content: space-around;
+}
+
+.purple > h2 {
+    color: gold;
+}
+
+.green > h2 {
+    color: white;
+}
+
+.yellow > h2 {
+    color: white;
+}
+
+.ash > h2 {
+    color: white;
+}
+
+.red > h2 {
+    color: gold;
+}
+
+.fa-solid {
+    color: grey;
+}
+
+.fifth {
+    width: 100%;
+    height: 55vh;
+    background-color: darkblue;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin-left: 5rem;
+    
+
+}
+
+.paragraph {
+    width: 40%;
+    
+}
+
+.paragraph > h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.paragraph > p {
+    color: rgba(250, 235, 215, 0.562);
+    font-size: 17px;
+}
+
+.picture {
+    width: 40%;
+    height: 35vh;
+    background-image: url(./images/ddd.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.two-lists {
+    display: flex;
+    gap: 5rem;
+}
+
+ul {
+    line-height: 2.6;
+    list-style-type:georgian;
+    color: rgba(250, 235, 215, 0.562);
+}
+
+.sixth {
+    width: 100%;
+    height: 55vh;
+    background-color: darkblue;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container > dl > dt {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container > dl > dd {
+    font-size: 16px;
+    color: rgba(250, 235, 215, 0.562);
+
+}
+
+
+.image {
+    width: 40%;
+    height: 35vh;
+    background-image: url(./images/ddd.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 40%;
+    color: white;
+    
+}
+
+.last {
+    width: 100%;
+    height: 40vh;
+    background-color: navy;
+    text-align: center;
+    padding: 8rem;
+}
+
+.last > h1 {
+    font-size: 3rem;
+    color: white;
+    word-spacing: 5px;
+}
+
+.last > p {
+    color: rgba(250, 235, 215, 0.562);
+    line-height: 1.5rem;
+    font-size: 17px;
+}
